@@ -35,20 +35,30 @@ limitations under the License.
 
 > Chi-squared distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-chisquare
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { ChiSquare, cdf, entropy, kurtosis, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@esm/index.mjs';
+var chisquare = require( '@stdlib/stats-base-dists-chisquare' );
 ```
 
 #### chisquare
@@ -108,7 +118,7 @@ The namespace contains a constructor function for creating a [Chi-squared][chisq
 <!-- </toc> -->
 
 ```javascript
-var ChiSquare = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare' ).ChiSquare;
+var ChiSquare = require( '@stdlib/stats-base-dists-chisquare' ).ChiSquare;
 
 var dist = new ChiSquare( 4.0 );
 
@@ -128,20 +138,11 @@ var mu = dist.mean;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var chisquare = require( '@stdlib/stats-base-dists-chisquare' );
 
 console.log( objectKeys( chisquare ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -165,7 +166,7 @@ console.log( objectKeys( chisquare ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -182,7 +183,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -229,33 +230,33 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/chisquare/ctor]: https://github.com/stdlib-js/stats-base-dists-chisquare-ctor/tree/esm
+[@stdlib/stats/base/dists/chisquare/ctor]: https://github.com/stdlib-js/stats-base-dists-chisquare-ctor
 
-[@stdlib/stats/base/dists/chisquare/entropy]: https://github.com/stdlib-js/stats-base-dists-chisquare-entropy/tree/esm
+[@stdlib/stats/base/dists/chisquare/entropy]: https://github.com/stdlib-js/stats-base-dists-chisquare-entropy
 
-[@stdlib/stats/base/dists/chisquare/kurtosis]: https://github.com/stdlib-js/stats-base-dists-chisquare-kurtosis/tree/esm
+[@stdlib/stats/base/dists/chisquare/kurtosis]: https://github.com/stdlib-js/stats-base-dists-chisquare-kurtosis
 
-[@stdlib/stats/base/dists/chisquare/mean]: https://github.com/stdlib-js/stats-base-dists-chisquare-mean/tree/esm
+[@stdlib/stats/base/dists/chisquare/mean]: https://github.com/stdlib-js/stats-base-dists-chisquare-mean
 
-[@stdlib/stats/base/dists/chisquare/median]: https://github.com/stdlib-js/stats-base-dists-chisquare-median/tree/esm
+[@stdlib/stats/base/dists/chisquare/median]: https://github.com/stdlib-js/stats-base-dists-chisquare-median
 
-[@stdlib/stats/base/dists/chisquare/mode]: https://github.com/stdlib-js/stats-base-dists-chisquare-mode/tree/esm
+[@stdlib/stats/base/dists/chisquare/mode]: https://github.com/stdlib-js/stats-base-dists-chisquare-mode
 
-[@stdlib/stats/base/dists/chisquare/skewness]: https://github.com/stdlib-js/stats-base-dists-chisquare-skewness/tree/esm
+[@stdlib/stats/base/dists/chisquare/skewness]: https://github.com/stdlib-js/stats-base-dists-chisquare-skewness
 
-[@stdlib/stats/base/dists/chisquare/stdev]: https://github.com/stdlib-js/stats-base-dists-chisquare-stdev/tree/esm
+[@stdlib/stats/base/dists/chisquare/stdev]: https://github.com/stdlib-js/stats-base-dists-chisquare-stdev
 
-[@stdlib/stats/base/dists/chisquare/variance]: https://github.com/stdlib-js/stats-base-dists-chisquare-variance/tree/esm
+[@stdlib/stats/base/dists/chisquare/variance]: https://github.com/stdlib-js/stats-base-dists-chisquare-variance
 
-[@stdlib/stats/base/dists/chisquare/cdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-cdf/tree/esm
+[@stdlib/stats/base/dists/chisquare/cdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-cdf
 
-[@stdlib/stats/base/dists/chisquare/logpdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-logpdf/tree/esm
+[@stdlib/stats/base/dists/chisquare/logpdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-logpdf
 
-[@stdlib/stats/base/dists/chisquare/mgf]: https://github.com/stdlib-js/stats-base-dists-chisquare-mgf/tree/esm
+[@stdlib/stats/base/dists/chisquare/mgf]: https://github.com/stdlib-js/stats-base-dists-chisquare-mgf
 
-[@stdlib/stats/base/dists/chisquare/pdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-pdf/tree/esm
+[@stdlib/stats/base/dists/chisquare/pdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-pdf
 
-[@stdlib/stats/base/dists/chisquare/quantile]: https://github.com/stdlib-js/stats-base-dists-chisquare-quantile/tree/esm
+[@stdlib/stats/base/dists/chisquare/quantile]: https://github.com/stdlib-js/stats-base-dists-chisquare-quantile
 
 <!-- </toc-links> -->
 
