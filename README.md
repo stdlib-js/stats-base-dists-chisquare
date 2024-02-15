@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@esm/index.mjs';
+import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ChiSquare, cdf, entropy, kurtosis, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@esm/index.mjs';
+import { ChiSquare, cdf, entropy, kurtosis, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@v0.2.0-esm/index.mjs';
 ```
 
 #### chisquare
@@ -135,7 +135,7 @@ var mu = dist.mean;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@esm/index.mjs';
+import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@v0.2.0-esm/index.mjs';
 
 console.log( objectKeys( chisquare ) );
 
