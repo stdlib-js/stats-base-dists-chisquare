@@ -68,6 +68,7 @@
     "@stdlib/math-base-special-max": "^0.3.0",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-round": "^0.3.0",
+    "@stdlib/math-base-special-roundn": "^0.2.2",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
     "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/stats-base-dists-gamma-cdf": "^0.2.2",
