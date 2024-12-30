@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-30)
 
 <section class="packages">
 
@@ -34,6 +34,74 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-chisquare-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/chisquare/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chisquare/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7a87244`](https://github.com/stdlib-js/stdlib/commit/7a872442e344e03a69d987f0f7b89d1344d5547c) - add C implementation for `stats/base/dists/chisquare/entropy` [(#4007)](https://github.com/stdlib-js/stdlib/pull/4007)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3501](https://github.com/stdlib-js/stdlib/issues/3501)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-chisquare-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/chisquare/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/chisquare/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`118284b`](https://github.com/stdlib-js/stdlib/commit/118284b97293f409c1769047675bed85ddf4dd20) - add C implementation for `stats/base/dists/chisquare/skewness` [(#4005)](https://github.com/stdlib-js/stdlib/pull/4005)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3510](https://github.com/stdlib-js/stdlib/issues/3510)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -42,9 +110,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 3 issues were closed in this release:
 
-[#1619](https://github.com/stdlib-js/stdlib/issues/1619)
+[#1619](https://github.com/stdlib-js/stdlib/issues/1619), [#3501](https://github.com/stdlib-js/stdlib/issues/3501), [#3510](https://github.com/stdlib-js/stdlib/issues/3510)
 
 </section>
 
@@ -54,10 +122,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Kohantika Nath
 -   Philipp Burckhardt
+-   Vivek maurya
 
 </section>
 
@@ -69,6 +138,8 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`118284b`](https://github.com/stdlib-js/stdlib/commit/118284b97293f409c1769047675bed85ddf4dd20) - **feat:** add C implementation for `stats/base/dists/chisquare/skewness` [(#4005)](https://github.com/stdlib-js/stdlib/pull/4005) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`7a87244`](https://github.com/stdlib-js/stdlib/commit/7a872442e344e03a69d987f0f7b89d1344d5547c) - **feat:** add C implementation for `stats/base/dists/chisquare/entropy` [(#4007)](https://github.com/stdlib-js/stdlib/pull/4007) _(by Vivek maurya, Philipp Burckhardt)_
 -   [`28bdda3`](https://github.com/stdlib-js/stdlib/commit/28bdda3affa89470bbdf531cb3bbc233c85d3d17) - **docs:** improve examples of `stats/base/dists/chisquare` namespace [(#2678)](https://github.com/stdlib-js/stdlib/pull/2678) _(by Kohantika Nath, Philipp Burckhardt)_
 
 </details>
