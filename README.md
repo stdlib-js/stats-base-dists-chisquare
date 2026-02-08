@@ -35,25 +35,32 @@ limitations under the License.
 
 > Chi-squared distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-chisquare
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-chisquare/tags). For example,
-
-```javascript
-import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@v0.3.0-esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { ChiSquare, cdf, entropy, kurtosis, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@esm/index.mjs';
+var chisquare = require( '@stdlib/stats-base-dists-chisquare' );
 ```
 
 #### chisquare
@@ -113,7 +120,7 @@ The namespace contains a constructor function for creating a [Chi-squared][chisq
 <!-- </toc> -->
 
 ```javascript
-var ChiSquare = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare' ).ChiSquare;
+var ChiSquare = require( '@stdlib/stats-base-dists-chisquare' ).ChiSquare;
 
 var dist = new ChiSquare( 4.0 );
 
@@ -133,14 +140,9 @@ var mu = dist.mean;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@esm/index.mjs';
-import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@esm/index.mjs';
+```javascript
+var roundn = require( '@stdlib/math-base-special-roundn' );
+var chisquare = require( '@stdlib/stats-base-dists-chisquare' );
 
 // Define degrees of freedom:
 var k = 5.0;
@@ -169,10 +171,6 @@ console.log( '\nQuantile at p = %d: %d', p, roundn( chisquare.quantile( p, k ), 
 // Evaluate moment-generating function:
 var t = 0.1;
 console.log( 'MGF at t = %d: %d', t, roundn( chisquare.mgf( t, k ), -4 ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -196,7 +194,7 @@ console.log( 'MGF at t = %d: %d', t, roundn( chisquare.mgf( t, k ), -4 ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -226,8 +224,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-chisquare.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-chisquare
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-chisquare/actions/workflows/test.yml/badge.svg?branch=v0.3.0
-[test-url]: https://github.com/stdlib-js/stats-base-dists-chisquare/actions/workflows/test.yml?query=branch:v0.3.0
+[test-image]: https://github.com/stdlib-js/stats-base-dists-chisquare/actions/workflows/test.yml/badge.svg?branch=v0.3.1
+[test-url]: https://github.com/stdlib-js/stats-base-dists-chisquare/actions/workflows/test.yml?query=branch:v0.3.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-chisquare/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-chisquare?branch=main
@@ -263,33 +261,33 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/chisquare/ctor]: https://github.com/stdlib-js/stats-base-dists-chisquare-ctor/tree/esm
+[@stdlib/stats/base/dists/chisquare/ctor]: https://github.com/stdlib-js/stats-base-dists-chisquare-ctor
 
-[@stdlib/stats/base/dists/chisquare/entropy]: https://github.com/stdlib-js/stats-base-dists-chisquare-entropy/tree/esm
+[@stdlib/stats/base/dists/chisquare/entropy]: https://github.com/stdlib-js/stats-base-dists-chisquare-entropy
 
-[@stdlib/stats/base/dists/chisquare/kurtosis]: https://github.com/stdlib-js/stats-base-dists-chisquare-kurtosis/tree/esm
+[@stdlib/stats/base/dists/chisquare/kurtosis]: https://github.com/stdlib-js/stats-base-dists-chisquare-kurtosis
 
-[@stdlib/stats/base/dists/chisquare/mean]: https://github.com/stdlib-js/stats-base-dists-chisquare-mean/tree/esm
+[@stdlib/stats/base/dists/chisquare/mean]: https://github.com/stdlib-js/stats-base-dists-chisquare-mean
 
-[@stdlib/stats/base/dists/chisquare/median]: https://github.com/stdlib-js/stats-base-dists-chisquare-median/tree/esm
+[@stdlib/stats/base/dists/chisquare/median]: https://github.com/stdlib-js/stats-base-dists-chisquare-median
 
-[@stdlib/stats/base/dists/chisquare/mode]: https://github.com/stdlib-js/stats-base-dists-chisquare-mode/tree/esm
+[@stdlib/stats/base/dists/chisquare/mode]: https://github.com/stdlib-js/stats-base-dists-chisquare-mode
 
-[@stdlib/stats/base/dists/chisquare/skewness]: https://github.com/stdlib-js/stats-base-dists-chisquare-skewness/tree/esm
+[@stdlib/stats/base/dists/chisquare/skewness]: https://github.com/stdlib-js/stats-base-dists-chisquare-skewness
 
-[@stdlib/stats/base/dists/chisquare/stdev]: https://github.com/stdlib-js/stats-base-dists-chisquare-stdev/tree/esm
+[@stdlib/stats/base/dists/chisquare/stdev]: https://github.com/stdlib-js/stats-base-dists-chisquare-stdev
 
-[@stdlib/stats/base/dists/chisquare/variance]: https://github.com/stdlib-js/stats-base-dists-chisquare-variance/tree/esm
+[@stdlib/stats/base/dists/chisquare/variance]: https://github.com/stdlib-js/stats-base-dists-chisquare-variance
 
-[@stdlib/stats/base/dists/chisquare/cdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-cdf/tree/esm
+[@stdlib/stats/base/dists/chisquare/cdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-cdf
 
-[@stdlib/stats/base/dists/chisquare/logpdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-logpdf/tree/esm
+[@stdlib/stats/base/dists/chisquare/logpdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-logpdf
 
-[@stdlib/stats/base/dists/chisquare/mgf]: https://github.com/stdlib-js/stats-base-dists-chisquare-mgf/tree/esm
+[@stdlib/stats/base/dists/chisquare/mgf]: https://github.com/stdlib-js/stats-base-dists-chisquare-mgf
 
-[@stdlib/stats/base/dists/chisquare/pdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-pdf/tree/esm
+[@stdlib/stats/base/dists/chisquare/pdf]: https://github.com/stdlib-js/stats-base-dists-chisquare-pdf
 
-[@stdlib/stats/base/dists/chisquare/quantile]: https://github.com/stdlib-js/stats-base-dists-chisquare-quantile/tree/esm
+[@stdlib/stats/base/dists/chisquare/quantile]: https://github.com/stdlib-js/stats-base-dists-chisquare-quantile
 
 <!-- </toc-links> -->
 
