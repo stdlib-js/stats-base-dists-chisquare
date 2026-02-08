@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@deno/mod.js';
+import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ChiSquare, cdf, entropy, kurtosis, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@deno/mod.js';
+import { ChiSquare, cdf, entropy, kurtosis, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@v0.3.1-deno/mod.js';
 ```
 
 #### chisquare
@@ -130,7 +130,7 @@ var mu = dist.mean;
 
 ```javascript
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@deno/mod.js';
-import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@deno/mod.js';
+import chisquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare@v0.3.1-deno/mod.js';
 
 // Define degrees of freedom:
 var k = 5.0;
