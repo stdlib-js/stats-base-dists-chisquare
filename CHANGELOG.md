@@ -2,6 +2,70 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-31)
+
+<section class="features">
+
+### Features
+
+-   [`d11f1f1`](https://github.com/stdlib-js/stdlib/commit/d11f1f1157bf77fbfdc00663f410f41a1ba18a0c) - add C implementation for `stats/base/dists/chisquare/logpdf` [(#10778)](https://github.com/stdlib-js/stdlib/pull/10778)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3503](https://github.com/stdlib-js/stdlib/issues/3503)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`c07de96`](https://github.com/stdlib-js/stdlib/commit/c07de963b0116d680060bb12d271fd8bf0bb26c1) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`800e5c6`](https://github.com/stdlib-js/stdlib/commit/800e5c63152409e524ba972c331f3656103adebd) - **bench:** minor clean-up _(by Philipp Burckhardt)_
+-   [`d11f1f1`](https://github.com/stdlib-js/stdlib/commit/d11f1f1157bf77fbfdc00663f410f41a1ba18a0c) - **feat:** add C implementation for `stats/base/dists/chisquare/logpdf` [(#10778)](https://github.com/stdlib-js/stdlib/pull/10778) _(by Siddhartha Mondal, Philipp Burckhardt, stdlib-bot)_
+-   [`8fc5e6c`](https://github.com/stdlib-js/stdlib/commit/8fc5e6c08689b2e7df7aeb3a14f4918c8d53986b) - **docs:** fix parameter name in comment of `chisquare/mean/src/main.c` [(#10779)](https://github.com/stdlib-js/stdlib/pull/10779) _(by Siddhartha Mondal)_
+-   [`12c2cee`](https://github.com/stdlib-js/stdlib/commit/12c2cee21de81594436e583fc379339cf5ac89c1) - **bench:** refactor to use string interpolation in `stats/base/dists/chisquare` [(#10325)](https://github.com/stdlib-js/stdlib/pull/10325) _(by Vishal Gaikwad)_
+-   [`ac2de21`](https://github.com/stdlib-js/stdlib/commit/ac2de219ef2fb87ceb61360e6c267c5ab1e3cdbb) - **style:** replace erroneous tab character with space _(by Philipp Burckhardt)_
+-   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Siddhartha Mondal
+-   Vishal Gaikwad
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
