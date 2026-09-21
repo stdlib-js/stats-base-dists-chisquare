@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-21)
 
 <section class="features">
 
@@ -35,6 +35,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`71c6a07`](https://github.com/stdlib-js/stdlib/commit/71c6a076990c22b6fc3ff70706ea8a93f688f57a) - **test:** migrate `stats/base/dists/chisquare/logpdf` to ULP-based assertions [(#15121)](https://github.com/stdlib-js/stdlib/pull/15121) _(by Athan Reines)_
+-   [`209e1e0`](https://github.com/stdlib-js/stdlib/commit/209e1e0b79b78a936f4e3dc541b05235674e271f) - **test:** migrate `stats/base/dists/chisquare/median` to ULP-based assertions [(#14545)](https://github.com/stdlib-js/stdlib/pull/14545) _(by Athan Reines)_
+-   [`0d59e49`](https://github.com/stdlib-js/stdlib/commit/0d59e491d662cb131869b6437c113dda340daf24) - **test:** migrate `stats/base/dists/chisquare/mgf` to ULP-based assertions [(#14209)](https://github.com/stdlib-js/stdlib/pull/14209) _(by Athan Reines)_
 -   [`202e91c`](https://github.com/stdlib-js/stdlib/commit/202e91c2dcf434f065d94866e076fdb5a7aa36a7) - **bench:** fix description _(by Athan Reines)_
 -   [`10e10b8`](https://github.com/stdlib-js/stdlib/commit/10e10b8c25e44a1807bc3fef189570c11218433c) - **feat:** add C implementation for `stats/base/dists/chisquare/pdf` [(#11634)](https://github.com/stdlib-js/stdlib/pull/11634) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
 -   [`5dee19d`](https://github.com/stdlib-js/stdlib/commit/5dee19dbe000c3512c48f5546478b66a41a2a062) - **bench:** use consistent assertions [(#13229)](https://github.com/stdlib-js/stdlib/pull/13229) _(by Philipp Burckhardt)_
