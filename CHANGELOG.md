@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
 ### Features
 
+-   [`44c5b45`](https://github.com/stdlib-js/stdlib/commit/44c5b45f2a0904ab5208e0dd89d8dc718aaa475a) - add C implementation for `stats/base/dists/chisquare/median` [(#14659)](https://github.com/stdlib-js/stdlib/pull/14659)
+-   [`cd8a679`](https://github.com/stdlib-js/stdlib/commit/cd8a679d4c52866b6e973ee7bd14e152ec0d977e) - add C implementation for `stats/base/dists/chisquare/quantile` [(#14658)](https://github.com/stdlib-js/stdlib/pull/14658)
 -   [`10e10b8`](https://github.com/stdlib-js/stdlib/commit/10e10b8c25e44a1807bc3fef189570c11218433c) - add C implementation for `stats/base/dists/chisquare/pdf` [(#11634)](https://github.com/stdlib-js/stdlib/pull/11634)
 -   [`d11f1f1`](https://github.com/stdlib-js/stdlib/commit/d11f1f1157bf77fbfdc00663f410f41a1ba18a0c) - add C implementation for `stats/base/dists/chisquare/logpdf` [(#10778)](https://github.com/stdlib-js/stdlib/pull/10778)
 
@@ -35,6 +37,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
+-   [`a7915b9`](https://github.com/stdlib-js/stdlib/commit/a7915b990d5089df8dc941e80ab0614df4e539fa) - **test:** migrate `stats/base/dists/chisquare/entropy` to ULP-based assertions [(#15936)](https://github.com/stdlib-js/stdlib/pull/15936) _(by Philipp Burckhardt)_
+-   [`44c5b45`](https://github.com/stdlib-js/stdlib/commit/44c5b45f2a0904ab5208e0dd89d8dc718aaa475a) - **feat:** add C implementation for `stats/base/dists/chisquare/median` [(#14659)](https://github.com/stdlib-js/stdlib/pull/14659) _(by Philipp Burckhardt, Karan Anand)_
+-   [`cd8a679`](https://github.com/stdlib-js/stdlib/commit/cd8a679d4c52866b6e973ee7bd14e152ec0d977e) - **feat:** add C implementation for `stats/base/dists/chisquare/quantile` [(#14658)](https://github.com/stdlib-js/stdlib/pull/14658) _(by Philipp Burckhardt, Karan Anand)_
+-   [`5badd4b`](https://github.com/stdlib-js/stdlib/commit/5badd4bfaf697543f86aad8f3aa2838354952086) - **test:** migrate `stats/base/dists/chisquare/quantile` to ULP-based assertions [(#15801)](https://github.com/stdlib-js/stdlib/pull/15801) _(by Athan Reines)_
+-   [`71cf6bd`](https://github.com/stdlib-js/stdlib/commit/71cf6bd59e4af4cde818f4f57d5961602b070225) - **test:** migrate `stats/base/dists/chisquare/cdf` to ULP-based assertions [(#15392)](https://github.com/stdlib-js/stdlib/pull/15392) _(by Athan Reines)_
 -   [`71c6a07`](https://github.com/stdlib-js/stdlib/commit/71c6a076990c22b6fc3ff70706ea8a93f688f57a) - **test:** migrate `stats/base/dists/chisquare/logpdf` to ULP-based assertions [(#15121)](https://github.com/stdlib-js/stdlib/pull/15121) _(by Athan Reines)_
 -   [`209e1e0`](https://github.com/stdlib-js/stdlib/commit/209e1e0b79b78a936f4e3dc541b05235674e271f) - **test:** migrate `stats/base/dists/chisquare/median` to ULP-based assertions [(#14545)](https://github.com/stdlib-js/stdlib/pull/14545) _(by Athan Reines)_
 -   [`0d59e49`](https://github.com/stdlib-js/stdlib/commit/0d59e491d662cb131869b6437c113dda340daf24) - **test:** migrate `stats/base/dists/chisquare/mgf` to ULP-based assertions [(#14209)](https://github.com/stdlib-js/stdlib/pull/14209) _(by Athan Reines)_
@@ -68,10 +76,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Kamal Singh Rautela
+-   Karan Anand
 -   Neeraj Pathak
 -   Om-A-osc
 -   Philipp Burckhardt
